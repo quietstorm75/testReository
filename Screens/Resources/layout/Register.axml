@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/txtRegister"
+        android:text="Registration Form"
+        android:textSize="25dp"
+        android:textColor="#009955"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editFName"
+        android:textSize="11dp"
+        android:hint="Enter First Name"
+        android:textColor="#009955" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editLName"
+        android:textSize="11dp"
+        android:hint="Enter Last Name"
+        android:textColor="#009955" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editEmail"
+        android:textSize="11dp"
+        android:hint="Enter Email Address"
+        android:textColor="#009955" />
+    <Button
+        android:id="@+id/btnSend"
+        android:text="Send Request"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="#ccff00"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+<!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+<!--android.telephony.TelephonyManager.getDeviceId().-->
+</LinearLayout>

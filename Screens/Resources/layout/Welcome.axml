@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:id="@+id/txtwelcome"
+    android:text="Welcome"
+    android:textSize="25dp"
+    android:textColor="#009955"></TextView>
+<Button android:id="@+id/btnRegister"
+        android:text="Register"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="#ccff00"
+  android:layout_alignParentBottom="true"
+  android:layout_alignParentLeft="true"></Button>
+
+<Button android:id="@+id/btnSignIn"
+        android:text="Sign In"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+android:layout_alignParentBottom="true"
+        android:background="#ffcc00"
+android:layout_alignParentRight="true"></Button>
+</LinearLayout>
